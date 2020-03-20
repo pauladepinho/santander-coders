@@ -1,0 +1,12 @@
+FLEXBOX:
+
+Guia para Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Entendendo o flex-grow: https://medium.com/@tiffnogueira/understanding-flex-shrink-flex-grow-and-flex-basis-and-using-these-properties-to-their-full-e4b4afd2c930
+Seletores CSS: https://www.maujor.com.br/tutorial/guia-completo-seletores-css3.php
+
+
+Jogos css:
+
+Para treinar Seletores: https://flukeout.github.io/
+Para treinar flexbox: https://flexboxfroggy.com/#pt-br
+Para treinar flexboxhttp://www.flexboxdefense.com/
