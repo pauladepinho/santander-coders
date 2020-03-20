@@ -1,0 +1,27 @@
+/* h3 {
+    color: blue;
+}
+.negrito {
+    font-weight: bold;
+}
+#gigante {
+    font-size: 40px;
+    color: red;
+} */
+
+
+body {
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg');
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f4e033;
+}
+
+h3 {
+    background-color: orange;
+    color: white;
+    opacity: 0.4;
+}

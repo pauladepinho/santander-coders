@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	height: 400px;
+}
+
+nav {
+	background-color: #E0E0E0;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	position: sticky;
+	top: 0;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a{
+	display: inline-block;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: black;
+}
+
+nav li a:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+
+nav li a.selected{
+	background-color: rgba(255,255,255,0.6);
+}
+
+.container{
+	max-width: 960px;
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+main>section{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+main>section article.chamada{
+	flex-grow: 1;
+	background-color: rgb(185, 195, 255);
+	margin-right: 20px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+main>section article.chamada button{
+	padding: 20px 30px;
+	border: none;
+	background-color: blue;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 1.2rem;
+	float: right;
+}
+
+main>section article.video{
+	width: 300px;
+}
+
+main>section article.video iframe{
+	height: 100%;
+}
+
+main>section.blocos{
+	display: flex;
+	justify-content: space-between;
+}
+
+main>section.blocos article{
+	display: block;
+	width: calc(25% - 15px);
+	background-color: #E0E0E0;
+	padding: 20px;
+}
+
+main>section.blocos article img{
+	width: 100%;
+}
+
+footer {
+	background-color: black;
+	color: #FFF;
+	text-align: center;
+	padding: 30px 0;
+}

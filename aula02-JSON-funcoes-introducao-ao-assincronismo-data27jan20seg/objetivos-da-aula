@@ -1,0 +1,26 @@
+Objetivos:
+
+JSON: Javascript object notation
+
+Métodos de string
+(slice (), split (), trim, replace (), indexOf (), length, match ())
+/ /g -> pega todos espaços de uma string
+/a/g -> pega todas as letras a's de uma string
+
+Callbacks
+
+Arrow functions
+
+Conversão de dados
+
+Closures
+
+Assincronismo
+
+Array.find ()
+Array.findAll ()
+Array.join () // junta os elementos de array em uma string
+Array.toString () // parecido com join ()
+
+// regular expressions: regra para reconhecer padrões em strings
+// ver mais no site regex101
